@@ -1,0 +1,193 @@
+/*
+
+Colours:
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONT SETUP
+*******************/
+
+body	{
+	font-family: calibri, san-serif;
+}
+
+/*******************
+  GENERAL SETUP
+*******************/
+
+html {
+	font-size: 20px;
+}
+
+ul	{
+	list-style-type: none; 	
+}
+
+h1, h2, h5	{
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	margin: 0px 50px;
+}
+
+/*******************
+  HEADER
+*******************/
+
+header {
+	background-color: yellow;
+	border-bottom: 10px;
+	padding: 1em 0;
+}
+
+header ul {
+	margin-bottom: 0;
+}
+
+.page_nav {
+	display: inline-block;
+}
+
+.product_nav ul	{
+	float: right;
+	padding: 5px;
+	margin-right: 50px;
+}
+
+.product_nav li {
+	display: inline-block;
+}
+
+/*******************
+  BANNER
+*******************/
+
+.banner {
+	background-color: grey;
+	padding: 10px 0px;
+}
+
+.banner img {
+	display: block;
+	margin: 0 auto;	
+}
+
+/*******************
+  CONTENT
+*******************/
+
+.content {
+	background-color: blue;
+}
+
+/*******************
+  TEAM
+*******************/
+
+.team {
+	background-color: pink;
+}
+
+.cards {
+	overflow: hidden;
+}
+
+.card {
+	float: left;
+	width: 25%;
+}
+
+figure img {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*******************
+  LOCATIONS
+*******************/
+
+.locations {
+	background-color: red;
+}
+
+.maps {
+	overflow: hidden;
+	margin: 20px auto;
+}
+
+.map {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 230px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map h5 {
+	text-align: left;
+}
+
+/*******************
+  FAQS
+*******************/
+
+.main_faqs {
+	background-color: orange;
+}
+
+/*******************
+  SITEMAP
+*******************/
+
+.sitemap {
+	background-color: purple;
+}
+
+/*******************
+  FOOTER
+*******************/
+
+footer {
+	background-color: green;
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer ul {
+	text-align: center;
+}
