@@ -12,39 +12,39 @@
 <body>
 	<div class="wrapper">
 
-		<header class="page-header">
-<!--hamburger navbar insert-->
-<!--spa nav to move down page only-->
+		<header class="page-header clearfix">
+
 			<nav class="page_nav">
-				<ul>
+				<ul class="clearfix">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="#about_us">About us</a></li>
 					<li><a href="#meet_the_team">Meet the Team</a></li>
 					<li><a href="#get_in_touch">Get in touch</a></li>
 				</ul>
 			</nav>
-			<nav class="product_nav">
+
+			<nav class="product_nav clearfix">
 				<ul>
 					<li><strong><a href="employers.html">Employers</a></strong></li>
 					<li><strong><a href="developers.html">Developers</a></strong></li>
-					<li><strong><a href="agencies">Agencies</a></strong></li>
+					<li><strong><a href="agencies.html">Agencies</a></strong></li>
 				</ul>
 			</nav>
 		</header>
 
-		<section class="banner">
+		<section class="banner clearfix">
 			<img src="images/main_logo.jpg" alt="logo">		
 		</section>
-<!--Need a name for paragraph sections-->
-		<section class="#" id="about_us">
+
+		<section class="content clearfix" id="about_us">
 			<h2>About us</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>			
 		</section>
-<!--Not sure if I need a section name, looks like a one off style-->
-		<section class="#" id="meet_the_team">
+
+		<section class="team clearfix" id="meet_the_team">
 			<h2>Meet the Team</h2>
 			<ul class="cards">
 				<li class="card">
@@ -146,41 +146,50 @@
 						<a class="button" href="#">Contact</a>
 					</article>
 				</li>
-<!--Not sure if I need a section name, looks like a one off style-->
-		<section class="#" id="get_in_touch">
-			<h2>Get in Touch</h2>
-			<map name="london">
-				<h5>London</h5>
-				<img src="images/map_london.jpg" alt="london">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
-			</map>
-
-			<map name="san_francisco">
-				<h5>San Francisco</h5>
-				<img src="images/map_san_francisco.jpg" alt="san francisco">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>				
-			</map>
-
-			<map name="hong_kong">
-				<h5>Hong Kong</h5>
-				<img src="images/map_hong_kong.jpg" alt="hong kong">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>				
-			</map>
-
-			<map name="cape_town">
-				<h5>Cape Town</h5>
-				<img src="images/map_cape_town.jpg" alt="cape town">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
-			</map>
-
-			<map name="sydney">
-				<h5>Sydney</h5>
-				<img src="images/map_sydney.jpg" alt="sydney">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
-			</map>
+			</ul>
 		</section>
 
-		<footer>
+		<section class="locations clearfix" id="get_in_touch">
+			<h2>Get in Touch</h2>
+			<ul class="maps">
+				<li>
+					<div class="map">
+						<h5>London</h5>
+						<img class="map_img" src="images/map_london.jpg" alt="london">
+					</div>
+				</li>
+
+				<li>
+					<div class="map">
+						<h5>San Francisco</h5>
+						<img class="map_img" src="images/map_san_francisco.jpg" alt="san francisco">				
+					</div>
+				</li>
+
+				<li>
+					<div class="map">
+						<h5>Hong Kong</h5>
+						<img class="map_img" src="images/map_hong_kong.jpg" alt="hong kong">	
+					</div>
+				</li>
+
+				<li>
+					<div class="map">
+						<h5>Cape Town</h5>
+						<img class="map_img" src="images/map_cape_town.jpg" alt="cape town">
+					</div>
+				</li>
+
+				<li>
+					<div class="map">
+						<h5>Sydney</h5>
+						<img class="map_img" src="images/map_sydney.jpg" alt="sydney">
+					</div>
+				</li>
+			</ul>	
+		</section>
+
+		<footer class="clearfix">
 			<ul>
 				<li><a href="more.html">Terms</a></li>
 				<li><a href="more.html">Careers</a></li>
